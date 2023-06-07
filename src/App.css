@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+#projects, #skills, #contact {
+  padding-top: 70px; 
+  height: 100vh;
+}
+

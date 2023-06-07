@@ -1,0 +1,207 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.05;
+    }
+    10% {
+      opacity: 0.1;
+    }
+    15% {
+      opacity: 0.15;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    30% {
+      opacity: 0.3;
+    }
+    35% {
+      opacity: 0.35;
+    }
+    40% {
+      opacity: 0.4;
+    }
+    45% {
+      opacity: 0.45;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    55% {
+      opacity: 0.55;
+    }
+    60% {
+      opacity: 0.6;
+    }
+    65% {
+      opacity: 0.65;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    85% {
+      opacity: 0.85;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    95% {
+      opacity: 0.95;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    5% {
+      opacity: 0.95;
+    }
+    10% {
+      opacity: 0.9;
+    }
+    15% {
+      opacity: 0.85;
+    }
+    20% {
+      opacity: 0.8;
+    }
+    25% {
+      opacity: 0.75;
+    }
+    30% {
+      opacity: 0.7;
+    }
+    35% {
+      opacity: 0.65;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    45% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    55% {
+      opacity: 0.45;
+    }
+    60% {
+      opacity: 0.4;
+    }
+    65% {
+      opacity: 0.35;
+    }
+    70% {
+      opacity: 0.3;
+    }
+    75% {
+      opacity: 0.25;
+    }
+    80% {
+      opacity: 0.2;
+    }
+    85% {
+      opacity: 0.15;
+    }
+    90% {
+      opacity: 0.1;
+    }
+    95% {
+      opacity: 0.05;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  #about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about > div {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  h1:hover {
+    
+  }
+
+  
+  #about h1 {
+    display: inline-block;
+    font-size: 7rem;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(to top, rgb(100, 100, 100), rgb(209, 209, 209), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-duration: 1.5s; /* Set the duration for both fade-in and fade-out animations */
+    animation-fill-mode: both; /* Apply the animation styles to both the starting and ending states */
+  }
+
+.fade {
+    transition: opacity 0.6s ease-in-out;
+}
+
+.fade-in {
+  animation-name: fadeIn;
+}
+
+.fade-out {
+  animation-name: fadeOut;
+}
+
+.content {
+    padding: 0 20em 0 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.content * {
+    color: white;
+    text-align: center ;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 30px;
+}
+
+.card {
+    color: black;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff00;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    opacity: 1;
+    transform: translateY(20px);
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    padding: 0 1em 0 1em;
+  }
